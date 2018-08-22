@@ -68,11 +68,11 @@ def organize_schools(schools)
   answer_hash = { }
   schools.each do |key, value|
       if value[:location] == "NYC"
-      	answer_hash["NYC"] = key
+      	answer_hash["NYC"] << key
       elsif value[:location] == "SF"
-        answer_hash["SF"] = key
+        answer_hash["SF"] << key
       elsif value[:location] == "Chicago"
-       answer_hash["Chicago"] = key
+       answer_hash["Chicago"] << key
       end
     end
    answer_hash
