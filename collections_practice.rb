@@ -68,7 +68,7 @@ def organize_schools(schools)
   answer_hash = { }
   schools.each do |item|
     item.each do |location, city|
-      new_hash[city] = [ ]
+      answer_hash[city] = [ ]
     end
   end
   schools.each do |key, value|
