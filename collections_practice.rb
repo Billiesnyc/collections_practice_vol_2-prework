@@ -55,7 +55,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
-  
+  answer_array = []
   hash.each do |item|
     if hash["temperature"] == "cool"
       
