@@ -42,7 +42,7 @@ end
 
 def count_elements(array)
   array_answer = []
-  array.each do |item|
+  array_answer = array.each do |item|
     array_answer.push(item[:count] = array.count(item))
   end
   array_answer
