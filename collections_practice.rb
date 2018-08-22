@@ -45,6 +45,7 @@ def count_elements(array)
     item[:count] = array.count(item)
   end
   answer_hash.delete_at(1)
+  answer_hash
 end
 
 def merge_data
