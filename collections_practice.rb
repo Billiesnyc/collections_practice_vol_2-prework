@@ -60,6 +60,7 @@ def find_cool(hash)
     if item["temperature"] == "cool"
       answer_array.push(item)
     end
+    end
     answer_array
 end
 
