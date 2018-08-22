@@ -1,7 +1,7 @@
 def begins_with_r(array)
   counter = 0
   array.each do |item|
-    if item 
+    if item.start_with? "r", "R"
 end
 
 def contain_a
