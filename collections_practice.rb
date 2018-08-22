@@ -65,5 +65,14 @@ def find_cool(hash)
 end
 
 def organize_schools(schools)
-  
+  schools.each do |keys, value|
+      if value[:location] == "NYC"
+      	new_hash["NYC"] << keys
+      elsif value[:location] == "SF"
+        new_hash["SF"] << keys
+      elsif value[:location] == "Chicago"
+        new_hash["Chicago"] << keys
+      end
+    end
+   new_hash
 end
