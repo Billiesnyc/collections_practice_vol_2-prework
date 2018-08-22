@@ -2,6 +2,9 @@ def begins_with_r(array)
   counter = 0
   array.each do |item|
     if item.start_with? "r", "R"
+      counter += 1 
+    end
+    
 end
 
 def contain_a
