@@ -55,7 +55,8 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
-  
+  hash.each do |item|
+    
 end
 
 def organize_schools
