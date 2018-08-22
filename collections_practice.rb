@@ -19,6 +19,7 @@ def contain_a(array)
       holding_array.push(item)
     end
   end
+  holding_array
 end
 
 def first_wa
