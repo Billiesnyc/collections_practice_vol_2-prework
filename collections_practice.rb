@@ -31,9 +31,10 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
+  answer_array = []
   array.each do |item|
     if item.is_a?(String)
-      array.delete(item)
+      array.push(item)
     end
   end
 end
