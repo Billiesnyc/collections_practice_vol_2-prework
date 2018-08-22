@@ -58,7 +58,7 @@ def find_cool(hash)
   answer_array = []
   hash.each do |item|
     if hash["temperature"] == "cool"
-      
+      answer_array.push()
 end
 
 def organize_schools
