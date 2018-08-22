@@ -32,7 +32,7 @@ end
 
 def remove_non_strings(array)
   array.each do |item|
-    if item.class == Fixnum
+    if item.class == Symbol || item.class == Fixnum
       array.delete(item)
     elsif item.class == Symbol
     array.delete(item)
