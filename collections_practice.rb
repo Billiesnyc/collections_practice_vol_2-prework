@@ -4,7 +4,12 @@ def begins_with_r(array)
     if item.start_with? "r", "R"
       counter += 1 
     end
-    
+  end
+    if counter.length == array.length
+      return true 
+    else 
+      return false 
+    end
 end
 
 def contain_a
