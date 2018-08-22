@@ -5,7 +5,7 @@ def begins_with_r(array)
       counter += 1 
     end
   end
-    if counter.length == array.length
+    if counter == array.length
       return true 
     else 
       return false 
