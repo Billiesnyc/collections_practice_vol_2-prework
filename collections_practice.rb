@@ -57,7 +57,7 @@ end
 def find_cool(hash)
   answer_array = []
   hash.each do |item|
-    if item["temperature"] == "cool"
+    if item[:temperature] == "cool"
       answer_array.push(item)
       end
     end
