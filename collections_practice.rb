@@ -33,7 +33,7 @@ end
 def remove_non_strings(array)
   array.each do |item|
     if item.class == Fixnum
-    elsif item.start_with? ":"
+    elsif item.class == Symbol
     array.delete(item)
     end
   end
