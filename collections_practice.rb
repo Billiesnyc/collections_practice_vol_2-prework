@@ -32,7 +32,7 @@ end
 
 def remove_non_strings(array)
   array.each do |item|
-    if item.respond_to?(:to_s)
+    if item.respond_to?(:to_i)
     array.delete(item)
     end
   end
