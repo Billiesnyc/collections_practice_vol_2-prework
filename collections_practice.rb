@@ -27,6 +27,7 @@ def first_wa(array)
     if item.start_with? "wa"
       return item
     end
+    end
 end
 
 def remove_non_strings
