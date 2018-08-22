@@ -41,10 +41,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array_hash = array.each do |item|
-    array_answer.push(item[:count] = array.count(item))
+  answer_hash = array.each do |item|
+    item[:count] = array.count(item)
   end
-  array_answer
+  answer_hash
 end
 
 def merge_data
