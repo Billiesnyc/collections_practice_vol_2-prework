@@ -48,9 +48,9 @@ def count_elements(array)
   answer_hash
 end
 
-def merge_data(data1, data2)
-   data1[0].values.map.with_index do |v, i|
-    data2[i].merge(v)
+def merge_data(keys, data)
+   data[0].values.map.with_index do |v, i|
+    keys[i].merge(v)
   end
 end
 
