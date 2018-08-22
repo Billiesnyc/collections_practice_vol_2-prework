@@ -14,6 +14,9 @@ end
 
 def contain_a(array)
   holding_array = []
+  array.each do |item|
+    
+  end
 end
 
 def first_wa
