@@ -24,10 +24,10 @@ end
 
 def first_wa(array)
    array.each do |item|
-    if item.start_with? "wa"
+    if item.start_with? "w" && item.start_with? ""
       return item
     end
-    end
+  end
 end
 
 def remove_non_strings
