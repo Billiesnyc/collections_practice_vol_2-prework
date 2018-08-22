@@ -33,7 +33,7 @@ end
 def remove_non_strings(array)
   array.each do |item|
     if item.class == String
-    elsif item[0] == ":"
+    elsif item.start_with? ":"
     array.delete(item)
     else
     array.delete(item)
