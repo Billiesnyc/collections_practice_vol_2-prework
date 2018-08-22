@@ -55,8 +55,10 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
+  
   hash.each do |item|
-    if hash[]
+    if hash["temperature"] == "cool"
+      
 end
 
 def organize_schools
