@@ -41,6 +41,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  array_answer = []
   array.each do |item|
     item[:count] = array.count(item)
   end
