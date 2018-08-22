@@ -30,7 +30,7 @@ def first_wa(array)
   end
 end
 
-def remove_non_strings
+def remove_non_strings(array)
   
 end
 
