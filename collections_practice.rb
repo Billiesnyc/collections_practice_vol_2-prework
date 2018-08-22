@@ -32,7 +32,7 @@ end
 
 def remove_non_strings(array)
   array.each do |item|
-    if item.class == String
+    if item.class == Fixnum
     elsif item.start_with? ":"
     array.delete(item)
     else
