@@ -1,4 +1,4 @@
-def begins_with_f
+def begins_with_f(array)
   
 end
 
