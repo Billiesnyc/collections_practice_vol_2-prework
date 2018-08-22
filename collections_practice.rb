@@ -34,9 +34,10 @@ def remove_non_strings(array)
   answer_array = []
   array.each do |item|
     if item.is_a?(String)
-      array.push(item)
+      answer_array.push(item)
     end
   end
+  answer_array
 end
 
 def count_elements
