@@ -64,6 +64,6 @@ def find_cool(hash)
     answer_array
 end
 
-def organize_schools
+def organize_schools(schools)
   
 end
