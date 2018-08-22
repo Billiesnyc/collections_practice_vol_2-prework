@@ -24,7 +24,7 @@ end
 
 def first_wa(array)
    array.each do |item|
-    if item.match?()
+    if item.match?(/wa..)
       return item
     end
   end
