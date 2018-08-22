@@ -44,7 +44,7 @@ def count_elements(array)
   answer_hash = array.each do |item|
     item[:count] = array.count(item)
   end
-  answer_hash.
+  answer_hash.delete_at(1)
 end
 
 def merge_data
