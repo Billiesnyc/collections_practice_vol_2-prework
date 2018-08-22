@@ -24,7 +24,7 @@ end
 
 def first_wa(array)
    array.each do |item|
-    if item.start_with? "w" && item.start_with? ""
+    if item.match 
       return item
     end
   end
