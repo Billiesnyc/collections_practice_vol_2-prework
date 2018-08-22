@@ -40,7 +40,7 @@ def remove_non_strings(array)
   answer_array
 end
 
-def count_elements(array, )
+def count_elements(array)
   
 end
 
