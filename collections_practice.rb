@@ -35,8 +35,6 @@ def remove_non_strings(array)
     if item.class == Fixnum
     elsif item.start_with? ":"
     array.delete(item)
-    else
-    array.delete(item)
     end
   end
 end
