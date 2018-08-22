@@ -16,6 +16,8 @@ def contain_a(array)
   holding_array = []
   array.each do |item|
     if item.include?(a)
+      holding_array.push(item)
+    end
   end
 end
 
