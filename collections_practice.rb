@@ -13,7 +13,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  
+  holding_array = []
 end
 
 def first_wa
