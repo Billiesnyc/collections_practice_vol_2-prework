@@ -22,8 +22,11 @@ def contain_a(array)
   holding_array
 end
 
-def first_wa
-  
+def first_wa(array)
+   array.each do |item|
+    if item.start_with? "wa"
+      return item
+    end
 end
 
 def remove_non_strings
