@@ -65,6 +65,7 @@ def find_cool(hash)
 end
 
 def organize_schools(schools)
+  answer_hash = {}
   schools.each do |keys, value|
       if value[:location] == "NYC"
       	new_hash["NYC"] << keys
