@@ -49,7 +49,8 @@ def count_elements(array)
 end
 
 def merge_data(data1, data2)
-  
+   data[0].values.map.with_index do |v, i|
+    keys[i].merge(v)
 end
 
 def find_cool
