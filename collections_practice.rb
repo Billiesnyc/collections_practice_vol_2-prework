@@ -45,6 +45,7 @@ def count_elements(array)
   array.each do |item|
     item[:count] = array.count(item)
   end
+  array_answer
 end
 
 def merge_data
