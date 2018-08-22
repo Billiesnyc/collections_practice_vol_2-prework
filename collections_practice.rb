@@ -31,7 +31,9 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  
+  array.each do |item|
+    
+  end
 end
 
 def count_elements
