@@ -51,6 +51,7 @@ end
 def merge_data(data1, data2)
    data1[0].values.map.with_index do |v, i|
     data2[i].merge(v)
+  end
 end
 
 def find_cool
