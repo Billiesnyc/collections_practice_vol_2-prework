@@ -66,13 +66,13 @@ end
 
 def organize_schools(schools)
   answer_hash = { }
-  schools.each do |keys, value|
+  schools.each do |key, value|
       if value[:location] == "NYC"
-      	answer_hash["NYC"] << keys
+      	answer_hash["NYC"] = key
       elsif value[:location] == "SF"
-        answer_hash["SF"] << keys
+        answer_hash["SF"] = key
       elsif value[:location] == "Chicago"
-       answer_hash["Chicago"] << keys
+       answer_hash["Chicago"] = key
       end
     end
    answer_hash
