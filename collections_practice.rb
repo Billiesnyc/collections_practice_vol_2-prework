@@ -56,7 +56,7 @@ end
 
 def find_cool(hash)
   hash.each do |item|
-    
+    if hash[]
 end
 
 def organize_schools
